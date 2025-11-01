@@ -20,7 +20,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 0 50px;
 }
 
 #navpart-1{
@@ -31,8 +31,96 @@ nav{
 }
 
 .gola{
-    height: 30px;
-    width: 30px;
+    height: 22px;
+    width: 22px;
     background-color: black;
     border-radius: 50px;
+}
+
+#navpart-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#navpart-2 h4{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#navpart-2 span{
+    color: rgb(97, 97, 97);
+    margin-left: 20px;
+}
+
+#nav-2{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    padding: 0 50px;
+}
+
+#nav-2 h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(50, 50, 50);
+    text-transform: uppercase;
+}
+
+#content{
+    height: calc(100% - 150px);
+    width: 100%;
+    
+}
+
+#text-content{
+    height: 40%;
+    width: 100%;
+    display: flex;
+   overflow-x: auto;
+}
+
+#text-content::-webkit-scrollbar{
+    background-color: transparent;
+    height: 5px;
+}
+
+#text-content::-webkit-scrollbar-thumb{
+    background-color: lightsalmon;
+}
+
+.elem{
+    flex-shrink: 0;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elem h1{
+    font-size: 100px;
+    font-weight: 300;
+}
+
+#footer{
+    height: 60%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+#footer::-webkit-scrollbar{
+    display: none;
+}
+
+#footer img{
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
